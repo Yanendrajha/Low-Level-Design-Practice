@@ -1,1 +1,4 @@
-Hello, world!This is a real-world document editor example.Indented text after a tab space.Rendering Image from path: picture.jpg
+Hello, world!
+This is a real-world document editor example.
+	Indented text after a tab space.
+Rendering Image from path: picture.jpg

@@ -1,4 +1,3 @@
-import Database.DBStorage;
 import Database.FileStorage;
 import Database.Persistence;
 import Document.Document;
@@ -10,11 +9,12 @@ public class DocumentEditorClient {
         
         DocumentEditor editor = new DocumentEditor(document, persistence);
         editor.addText("Hello, world!");
-       
+        editor.addNewLine();
         editor.addText("This is a real-world document editor example.");
-     
+        editor.addNewLine();
+        editor.addTabSpace();
         editor.addText("Indented text after a tab space.");
-       
+        editor.addNewLine();
         editor.addImage("picture.jpg");
         
         System.out.println(editor.renderDocument());
